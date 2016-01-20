@@ -1,0 +1,52 @@
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mInitial source changes: [0m
+[0m[[0mdebug[0m] [0m	removed:Set()[0m
+[0m[[0mdebug[0m] [0m	added: Set(C:\learning\akka\chap1\akkademy-db\src\main\java\com\akkademy\AkkademyDb.java, C:\learning\akka\chap1\akkademy-db\src\main\java\com\akkademy\messages\SetRequest.java, C:\learning\akka\chap1\akkademy-db\src\main\java\com\example\Hello.java)[0m
+[0m[[0mdebug[0m] [0m	modified: Set()[0m
+[0m[[0mdebug[0m] [0mRemoved products: Set()[0m
+[0m[[0mdebug[0m] [0mExternal API changes: API Changes: Set()[0m
+[0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(C:\learning\akka\chap1\akkademy-db\src\main\java\com\akkademy\AkkademyDb.java, C:\learning\akka\chap1\akkademy-db\src\main\java\com\akkademy\messages\SetRequest.java, C:\learning\akka\chap1\akkademy-db\src\main\java\com\example\Hello.java)[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m	product: Set()[0m
+[0m[[0mdebug[0m] [0m	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(C:\learning\akka\chap1\akkademy-db\src\main\java\com\akkademy\AkkademyDb.java, C:\learning\akka\chap1\akkademy-db\src\main\java\com\akkademy\messages\SetRequest.java, C:\learning\akka\chap1\akkademy-db\src\main\java\com\example\Hello.java)[0m
+[0m[[0mdebug[0m] [0mRecompiling all 3 sources: invalidated sources (3) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 3 Java sources to C:\learning\akka\chap1\akkademy-db\target\scala-2.11\classes...[0m
+[0m[[0mdebug[0m] [0mAttempting to call com.sun.tools.javac.api.JavacTool@76900e directly...[0m
+[0m[[0mdebug[0m] [0mJava compilation took 0.531144835 s[0m
+[0m[[0mdebug[0m] [0mJava analysis took 0.226075031 s[0m
+[0m[[0mdebug[0m] [0mJava compile + analysis took 0.76480684 s[0m
+[0m[[0mdebug[0m] [0mInvalidating C:\learning\akka\chap1\akkademy-db\src\main\java\com\akkademy\AkkademyDb.java...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from C:\learning\akka\chap1\akkademy-db\src\main\java\com\akkademy\AkkademyDb.java...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(C:\learning\akka\chap1\akkademy-db\src\main\java\com\akkademy\AkkademyDb.java)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(C:\learning\akka\chap1\akkademy-db\src\main\java\com\akkademy\AkkademyDb.java)[0m
+[0m[[0mdebug[0m] [0mThe C:\learning\akka\chap1\akkademy-db\src\main\java\com\akkademy\AkkademyDb.java source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, lambda$new$0, wait, map, equals, context, self, receive, preRestart, aroundReceive, akka$actor$Actor$_setter_$self_$eq, postRestart, postStop, notifyAll, aroundPostRestart, emptyBehavior, aroundPreRestart, aroundPostStop, <init>, preStart, unhandled, AkkademyDb, akka$actor$Actor$_setter_$context_$eq, lambda$new$1, getContext, sender, toString, getClass, supervisorStrategy, log, hashCode, aroundPreStart.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mName hashing optimization doesn't apply to non-Scala dependency: C:\learning\akka\chap1\akkademy-db\src\main\java\com\akkademy\AkkademyDb.java[0m
+[0m[[0mdebug[0m] [0mInvalidating C:\learning\akka\chap1\akkademy-db\src\main\java\com\akkademy\messages\SetRequest.java...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from C:\learning\akka\chap1\akkademy-db\src\main\java\com\akkademy\messages\SetRequest.java...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(C:\learning\akka\chap1\akkademy-db\src\main\java\com\akkademy\messages\SetRequest.java)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(C:\learning\akka\chap1\akkademy-db\src\main\java\com\akkademy\messages\SetRequest.java)[0m
+[0m[[0mdebug[0m] [0mThe C:\learning\akka\chap1\akkademy-db\src\main\java\com\akkademy\messages\SetRequest.java source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, wait, equals, getKey, notifyAll, key, <init>, SetRequest, toString, getClass, getValue, value, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mName hashing optimization doesn't apply to non-Scala dependency: C:\learning\akka\chap1\akkademy-db\src\main\java\com\akkademy\messages\SetRequest.java[0m
+[0m[[0mdebug[0m] [0mName hashing optimization doesn't apply to non-Scala dependency: C:\learning\akka\chap1\akkademy-db\src\main\java\com\akkademy\AkkademyDb.java[0m
+[0m[[0mdebug[0m] [0mInvalidating C:\learning\akka\chap1\akkademy-db\src\main\java\com\example\Hello.java...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from C:\learning\akka\chap1\akkademy-db\src\main\java\com\example\Hello.java...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(C:\learning\akka\chap1\akkademy-db\src\main\java\com\example\Hello.java)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(C:\learning\akka\chap1\akkademy-db\src\main\java\com\example\Hello.java)[0m
+[0m[[0mdebug[0m] [0mThe C:\learning\akka\chap1\akkademy-db\src\main\java\com\example\Hello.java source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, wait, equals, main, notifyAll, <init>, Hello, toString, getClass, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mName hashing optimization doesn't apply to non-Scala dependency: C:\learning\akka\chap1\akkademy-db\src\main\java\com\example\Hello.java[0m
+[0m[[0mdebug[0m] [0mNew invalidations:[0m
+[0m[[0mdebug[0m] [0m	Set()[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set()[0m
+[0m[[0mdebug[0m] [0mPreviously invalidated, but (transitively) depend on new invalidations:[0m
+[0m[[0mdebug[0m] [0m	Set()[0m
+[0m[[0mdebug[0m] [0mAll newly invalidated sources after taking into account (previously) recompiled sources:Set()[0m
